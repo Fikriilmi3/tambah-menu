@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+/* background */
+body{
+    background: url('img/bg_login.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/* box */
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 999;
+    width: 300px;
+    text-align: center;
+    padding: 50px 32px;
+    background:rgba(255, 255, 255, 0.1);
+    box-shadow: -1px, 4px, 28px, 0px rgba(0, 0, 0, 0.75);
+}
+
+/* title */
+h2{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 0 40px 0;
+    font-family: 'Verdana', sans-serif;
+    letter-spacing: 3px;
+}
+
+/* kolom input */
+.bar{
+    position: relative;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    background: rgba(255, 255, 255, 0.75);
+}
+
+/* text input */
+.bar input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #222;
+    font-size: 14px;
+    font-family: 'poppins', sans-serif;
+}
+
+/* posisi teks lupa password */
+.link_forget{
+    margin-top: 16px;
+    text-align: left;
+}
+
+/* teks lupa password */
+.link_forget a{
+    color: white;
+    font-size: 14px;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+}
+
+/* efek teks lupa password */
+.link_forget :hover{
+    text-decoration: underline;
+}
+
+/* tombol */
+.button{
+    padding: 8px;
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+    background: cornflowerblue;
+    border: none;
+    color: white;
+    font-family: 'verdana', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+/* jarak pemisah */
+.space{
+    margin-top: 16px;
+}
+
+.spaceEX{
+    margin-top: 20px;
+}
+
+/* info */
+p.desc{
+    color: white;
+    font-size: 14px;
+    margin-top: -12px;
+    font-family: 'poppins', sans-serif;
+}
+
+.alert{
+    color: red;
+    font-size: 14px;
+    margin-top: 12px;
+    font-family: 'poppins', sans-serif;
+}
+
+.notifSuccess{
+    color: white;
+    font-size: 14px;
+    margin-top: 12px;
+    font-family: 'poppins', sans-serif;
+}
+
+.link_register{
+    color: white;
+    font-size: 14px;
+    font-family: 'poppins', sans-serif ;
+    text-align: center;
+    text-shadow: 0 0 1px cornflowerblue, 0 0 1px cornflowerblue;
+}
+
+.link_register a{
+    color: cornflowerblue;
+    text-shadow: 0 0 2px white, 0 0 2px white;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link_register :hover{
+    text-decoration: underline;
+}
